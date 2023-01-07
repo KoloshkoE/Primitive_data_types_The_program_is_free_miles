@@ -1,12 +1,11 @@
 public class Main {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
-        int ticket_price = 7460;
-        int rub_for_a_miles = 20;
-        int bonus_miles = (ticket_price / rub_for_a_miles);
+        int ticketPrice = 7460;
+        int rubForAMiles = 20;
+        int bonusMiles = (ticketPrice / rubForAMiles);
 
-        System.out.println("Начислено бонусных миль " + bonus_miles);
+        System.out.println("Начислено бонусных миль " + bonusMiles);
 
     }
 }
